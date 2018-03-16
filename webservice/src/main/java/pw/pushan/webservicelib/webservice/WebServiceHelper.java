@@ -1,16 +1,15 @@
-package pw.pushan.webservice.network.webservice;
+package pw.pushan.webservicelib.webservice;
 
 import android.content.Context;
 import android.os.Handler;
 
-import java.util.HashMap;
 import java.util.Queue;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.concurrent.PriorityBlockingQueue;
 
-import static pw.pushan.webservice.network.webservice.WebRequest.log;
+import static pw.pushan.webservicelib.webservice.WebRequest.log;
 
 /**
  * Created by pushan on 24/07/15.

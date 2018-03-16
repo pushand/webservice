@@ -1,1 +1,1 @@
-include ':webservice'
+include ':webservice', ':app'

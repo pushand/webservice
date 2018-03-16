@@ -1,4 +1,4 @@
-package pw.pushan.webservice.network.web_service_model;
+package pw.pushan.webservicelib.web_service_model;
 
 
 /**

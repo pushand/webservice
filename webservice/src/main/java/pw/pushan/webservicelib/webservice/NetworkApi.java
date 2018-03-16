@@ -1,4 +1,4 @@
-package pw.pushan.webservice.network.webservice;
+package pw.pushan.webservicelib.webservice;
 
 import com.google.gson.Gson;
 
@@ -157,7 +157,11 @@ public abstract class NetworkApi implements WebServiceApi {
                         /*WebServiceModel  model = gson.fromJson(response, genericTypes[0]);
                         model.setStatusCode(statusCode);*/
                         setStatusCode(statusCode);
-                        nCallback.response(gson.fromJson(response, genericTypes[0]));
+                        if (genericTypes[0].getClass().getSimpleName().getClass().getSimpleName().equals("String")) {
+                            nCallback.response(response);
+                        } else {
+                            nCallback.response(gson.fromJson(response, genericTypes[0]));
+                        }
                         updateApiState(API_STATE_RECEIVED_SUCCESS);
                     }
                 }

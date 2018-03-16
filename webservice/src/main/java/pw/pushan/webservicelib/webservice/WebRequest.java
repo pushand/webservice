@@ -1,9 +1,8 @@
-package pw.pushan.webservice.network.webservice;
+package pw.pushan.webservicelib.webservice;
 
 import android.content.Context;
 import android.net.Uri;
 import android.os.Handler;
-import android.os.Looper;
 import android.util.Log;
 
 import java.io.BufferedWriter;
@@ -21,7 +20,7 @@ import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 
-import static pw.pushan.webservice.BuildConfig.DEBUG;
+import static pw.pushan.webservicelib.BuildConfig.DEBUG;
 
 /**
  * Created by Pushan on 3/2/16.

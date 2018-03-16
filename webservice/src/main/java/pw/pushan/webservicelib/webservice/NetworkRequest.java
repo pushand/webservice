@@ -1,4 +1,4 @@
-package pw.pushan.webservice.network.webservice;
+package pw.pushan.webservicelib.webservice;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
